@@ -1,0 +1,27 @@
+{
+  "name": "dio-typescript",
+  "version": "1.0.0",
+  "description": "Introdução prática ao Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardofrance/DIO-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardofrance/DIO-typescript/issues"
+  },
+  "homepage": "https://github.com/ricardofrance/DIO-typescript#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "tsc-watch": "^5.0.3"
+  }
+}
