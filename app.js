@@ -7,7 +7,7 @@ pessoa.idade = 25;
 var otavio = {
     nome: 'Otávio',
     idade: 25,
-    profissao: "Zootecnista"
+    profissao: 'Zootecnista'
 };
 var bruna = {
     nome: 'Bruna',
@@ -35,7 +35,7 @@ var jessica = {
     nome: 'Jéssica',
     idade: 20,
     profissao: Profissao.Professora,
-    materias: ['Matemática', 'Física']
+    materias: ['Matemática', 'Portugues']
 };
 var monica = {
     nome: 'Mônica',
@@ -48,4 +48,4 @@ function listar(lista) {
         console.log('•', item);
     }
 }
-listar(monica.materias);
+listar(jessica.materias);

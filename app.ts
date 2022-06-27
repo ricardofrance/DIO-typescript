@@ -9,7 +9,7 @@ pessoa.idade = 25;
 const otavio: {nome: string, idade: number, profissao: string} = {
     nome: 'Otávio',
     idade: 25,
-    profissao: "Zootecnista"
+    profissao: 'Zootecnista'
 }
 
 const bruna: {nome: string, idade: number, profissao: string} = {
@@ -50,7 +50,7 @@ const jessica: Estudante = {
     nome: 'Jéssica',
     idade: 20,
     profissao: Profissao.Professora,
-    materias: ['Matemática', 'Física']
+    materias: ['Matemática', 'Portugues']
 }
 
 const monica: Estudante = {
@@ -65,4 +65,4 @@ function listar(lista: string[]){
     }
 }
 
-listar(monica.materias);
+listar(jessica.materias);
